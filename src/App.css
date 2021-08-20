@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .App-logo {
@@ -35,4 +35,90 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/*custom css */
+.container {
+    width: 70%;
+ 
+    margin-left: 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.padd
+{
+  padding: 15px;
+}
+
+.search-field
+{
+  width: 100%;
+  height: 40px;
+  font-size: 1vw;
+  border-radius: 20px;
+  border: none;
+}
+
+.movie
+{
+  padding: 5px;
+ 
+  margin-top: 30px;
+  display: flex;
+}
+
+.poster
+{
+  height: 600px;
+  width: 30%;
+
+  overflow: hidden;
+}
+
+.details
+{
+ 
+  width: 65%;
+
+}
+
+
+.img-poster
+{
+  width: 100%;
+}
+
+.padd p
+{
+    font-size: 1vw;
+}
+
+h1,h2,h3
+{
+  margin: 0px;
+}
+
+.ratings
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-group
+{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.btn
+{
+  width: 17%;
+  background-color: lightblue;
+  border: none;
+  font-size: 0.9vw;
+  border-radius: 30px;
+  margin-left: 2em;
+  cursor: pointer;
 }
