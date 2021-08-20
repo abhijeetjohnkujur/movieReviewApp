@@ -47,7 +47,7 @@ function App() {
                       movieinfo?.Error === undefined? (
                         <div className="movie">
                         <div className="poster">
-                            <img src={movieinfo?.Poster} className="img-poster" />
+                            <img src={movieinfo?.Poster} className="img-poster" alt="poster"/>
                         </div>
                         <div className="details">
                             <div className="padd">
