@@ -4,4 +4,4 @@
 
 ###  <a href="https://single-page-review-app.netlify.app/" target="_blank">Live link</a>
 
-### Output screen : <img> </img>
+### Output screen : <img src="./Output/moviereview.png"></img>
