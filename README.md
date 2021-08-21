@@ -1,4 +1,4 @@
-# movieReviewApp
+# MovieReviewApp
 
 ## This is a react web app which uses to omdb api to fetch movie reviews.
 
