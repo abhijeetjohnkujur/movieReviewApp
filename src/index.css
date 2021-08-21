@@ -5,9 +5,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  
+background-color: #1878FF;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg fill-opacity='0.41'%3E%3Cpolygon fill='%23438bf1' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%23699de6' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%238cafe0' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%23aac0dd' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%23c5d0df' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%23dbdfe4' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%23EEE' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+
+animation:trans 0.7s;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@keyframes trans {
+  from {
+    opacity: 0;
+    transform: rotatex(-10deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
 }

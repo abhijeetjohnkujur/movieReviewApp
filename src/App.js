@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react';
 import './App.css';
+import "animate.css"
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
     
     getMovieData();
 
-  },[])
+  },[])// eslint-disable-line react-hooks/exhaustive-deps
 
     function readTitle(value)
     {
@@ -37,7 +38,8 @@ function App() {
     <div className="App">
       <div className="container">
           <div className="padd">
-              <h1>Movie Search</h1>
+            <div className="MovieTitle">
+              <h1 className="">Movie Review App</h1></div>
               <div className="input-group">
                 <input type="text" placeholder="Enter your movie name" className="search-field" onChange={(event)=>{readTitle(event.target.value)}} />
                 <button className="btn" onClick={getMovieData}>Get movie</button>
@@ -65,7 +67,7 @@ function App() {
                                 {
                                   movieinfo?.Ratings.map((rating,index) => (
                                     <div key={index}>
-                                    <strong>{rating.Source}</strong>
+                                    <strong className="rs">{rating.Source}</strong>
                                     <h3>{rating.Value}</h3>
                                   </div>             
                                   ))
